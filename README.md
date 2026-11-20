@@ -1,14 +1,14 @@
 # Antigravity Essentials
 
-Curated developer bundle designed for **Google Antigravity, Cursor, Claude Code, Windsurf, GitHub Copilot, ChatGPT, Claude.ai, and Gemini**. Focuses on extreme token efficiency (Caveman Lite), pragmatic full-stack engineering, anti-slop code hygiene, and natural language editing.
+Universal developer rules and skill bundle for **Antigravity, Cursor, Claude Code, Windsurf, Copilot, ChatGPT, Claude.ai, and Gemini**. Focuses on token efficiency (Caveman Lite), pragmatic full-stack engineering, clean code comment hygiene, and natural language editing.
 
-Works across both free and paid tiers, in web browsers, IDEs, and terminal CLIs.
+Compatible with free and paid tiers across web browsers, IDEs, and terminal CLIs.
 
 ---
 
-## ⚡ 1-Prompt Universal Quick Install
+## Quick Install (Single Prompt)
 
-Copy and paste this single instruction into **any AI agent, CLI, or IDE** (Antigravity, Cursor, Claude Code, Cline, Windsurf, etc.):
+Paste this instruction into **any AI agent, CLI, or IDE** (Antigravity, Cursor, Claude Code, Cline, Windsurf, etc.):
 
 ```text
 Set up the developer rules and skills from https://github.com/FuzailFr/antigravity-essentials.git for this current environment:
@@ -20,34 +20,42 @@ Verify that the configuration is active and summarize the loaded skills.
 
 ---
 
-## 🌐 Web Browser Setup (ChatGPT, Claude.ai, Gemini Web)
+## Platform Support
 
-For browser-based chats on free or paid accounts:
-
-1. Open [templates/universal-system-prompt.md](templates/universal-system-prompt.md).
-2. Copy the text block inside.
-3. Paste it directly into:
-   - **ChatGPT:** *Settings* → *Custom Instructions* (or Custom GPT instructions).
-   - **Claude.ai:** *Projects* → *Project Instructions* (or paste at the beginning of a conversation).
-   - **Gemini:** *Gemini Gems* → *Custom Instructions*.
+| Environment | Supported Tools | Installation Method |
+| :--- | :--- | :--- |
+| **Agentic IDE** | Antigravity | Run quick install prompt or git clone to plugins directory |
+| **Code Editors** | Cursor, Windsurf, Copilot | Copy corresponding file from `templates/` to project root |
+| **Terminal CLI** | Claude Code, Aider, Gemini CLI | Use `templates/CLAUDE.md` or set as system prompt |
+| **Web Browsers** | ChatGPT, Claude.ai, Gemini (Free/Paid) | Paste `templates/universal-system-prompt.md` into Custom Instructions |
 
 ---
 
-## 💻 Manual Setup
+## Web Browser Setup (ChatGPT, Claude.ai, Gemini)
+
+1. Open [`templates/universal-system-prompt.md`](templates/universal-system-prompt.md).
+2. Copy the text block.
+3. Paste into your platform's custom instruction field:
+   - **ChatGPT:** *Settings* > *Custom Instructions* (or Custom GPTs).
+   - **Claude.ai:** *Projects* > *Project Instructions* (or start of a new chat).
+   - **Gemini:** *Gemini Gems* > *Instructions*.
+
+---
+
+## Manual Installation (Terminal)
 
 ### Google Antigravity
-Linux / macOS:
-```bash
-git clone https://github.com/FuzailFr/antigravity-essentials.git "$HOME/.gemini/config/plugins/antigravity-essentials"
-```
+- Linux / macOS:
+  ```bash
+  git clone https://github.com/FuzailFr/antigravity-essentials.git "$HOME/.gemini/config/plugins/antigravity-essentials"
+  ```
+- Windows (PowerShell):
+  ```powershell
+  git clone https://github.com/FuzailFr/antigravity-essentials.git "$env:USERPROFILE\.gemini\config\plugins\antigravity-essentials"
+  ```
 
-Windows (PowerShell):
-```powershell
-git clone https://github.com/FuzailFr/antigravity-essentials.git "$env:USERPROFILE\.gemini\config\plugins\antigravity-essentials"
-```
-
-### Cursor, Claude Code & Windsurf (One-Liners)
-Drop rule files directly into any existing repository:
+### Direct Download for IDEs & CLIs
+Download pre-configured rule files directly into your project root:
 
 ```bash
 # Cursor
@@ -62,18 +70,23 @@ curl -fsSL https://raw.githubusercontent.com/FuzailFr/antigravity-essentials/mai
 
 ---
 
-## 📦 Included Skills & Modules
+## Included Skills & Rules
 
-- **jagoan**: Full-stack engineering, token compression (Caveman Lite), adaptive reasoning (Simple, Efficiency, Deep), and zero-tool assumption.  
-  Author: [FuzailFr](https://github.com/FuzailFr)
-- **humanizer-indonesia**: Indonesian text editing to remove AI translation artifacts (*kalke*), clichés, and preserve author voice.  
-  Author: [Adhi Pribadi](https://github.com/adhiprib/humanizer-indonesia)
-- **anti-slop**: Comprehensive rule set covering code comment hygiene, accessible human UI, responsive mobile layouts, and natural copy.  
-  Author: [Miqdad Badjuber](https://github.com/miqdadbadjuber/anti-slop)
+- **jagoan**  
+  Full-stack engineering, token compression (Caveman Lite), adaptive reasoning (Simple, Efficiency, Deep), and zero-tool assumption for constrained web environments.  
+  *Author:* [FuzailFr](https://github.com/FuzailFr)
+
+- **humanizer-indonesia**  
+  Indonesian prose and technical writing editor. Removes translation artifacts (*kalke*), robotic AI syntax, and preserves natural author voice.  
+  *Author:* [Adhi Pribadi](https://github.com/adhiprib/humanizer-indonesia)
+
+- **anti-slop suite** (`antislop`, `antislop-code`, `antislop-ui`, `antislop-human`, `antislop-layoutmobile`, `antislop-copywriting`)  
+  Rule sets enforcing code comment hygiene (no obvious comment filler), accessible human UI, responsive layouts, and natural copy.  
+  *Author:* [Miqdad Badjuber](https://github.com/miqdadbadjuber/anti-slop)
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 antigravity-essentials/
@@ -98,6 +111,6 @@ antigravity-essentials/
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the [MIT License](LICENSE). Individual skill modules remain under the copyright and license of their respective authors.
