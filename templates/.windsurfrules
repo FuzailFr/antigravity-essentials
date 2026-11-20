@@ -1,0 +1,7 @@
+# Windsurf Rules
+
+- Direct, high-density responses without conversational filler.
+- Surgical code modifications: output focused diffs instead of re-emitting large unchanged blocks.
+- Comment hygiene: eliminate redundant comments explaining obvious code logic.
+- Natural language adherence: when writing Indonesian, avoid translation clichés and robotic AI rhythm.
+- Respect project architecture, type definitions, and security invariants.
