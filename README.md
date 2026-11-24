@@ -1,6 +1,6 @@
 # Antigravity Essentials
 
-Universal developer rules and skill bundle for **Antigravity, Cursor, Claude Code, Windsurf, Copilot, ChatGPT, Claude.ai, and Gemini**. Focuses on token efficiency (Caveman Lite), pragmatic full-stack engineering, clean code comment hygiene, and natural language editing.
+Universal developer rules and skill bundle for **Antigravity, Cursor, Claude Code, Windsurf, Copilot, ChatGPT, Claude.ai, and Gemini**. Focuses on token efficiency (Caveman Lite), pragmatic senior engineering, clean comment hygiene, bespoke UI/UX craft, and natural language editing.
 
 Compatible with free and paid tiers across web browsers, IDEs, and terminal CLIs.
 
@@ -13,7 +13,7 @@ Paste this instruction into **any AI agent, CLI, or IDE** (Antigravity, Cursor, 
 ```text
 Set up the developer rules and skills from https://github.com/FuzailFr/antigravity-essentials.git for this current environment:
 1. If in Antigravity: clone this repository to the global plugins directory (~/.gemini/config/plugins/antigravity-essentials).
-2. If in Cursor, Claude Code, Windsurf, or Copilot: fetch the matching rule file from the 'templates/' directory (.cursorrules, CLAUDE.md, .windsurfrules, or .github/copilot-instructions.md) and place it at the project root.
+2. If in Cursor, Claude Code, Windsurf, or Copilot: fetch the matching rule file from the 'templates/' directory (.cursorrules, CLAUDE.md, .windsurfrules, or copilot-instructions.md) and place it at the project root.
 3. If in a general coding agent or workspace: load the instructions from 'templates/universal-system-prompt.md' into your active system prompt.
 Verify that the configuration is active and summarize the loaded skills.
 ```
@@ -76,13 +76,25 @@ curl -fsSL https://raw.githubusercontent.com/FuzailFr/antigravity-essentials/mai
   Full-stack engineering, token compression (Caveman Lite), adaptive reasoning (Simple, Efficiency, Deep), and zero-tool assumption for constrained web environments.  
   *Author:* [FuzailFr](https://github.com/FuzailFr)
 
+- **ponytail suite** (`ponytail`, `ponytail-review`, `ponytail-audit`, `ponytail-debt`, `ponytail-gain`, `ponytail-help`)  
+  Lazy senior dev mode. Forces the smallest change that fully solves the task: YAGNI, standard library first, zero bloat, and surgical code quality reviews.  
+  *Author:* [Dietrich Gebert](https://github.com/DietrichGebert/ponytail)
+
+- **anti-slop suite** (`antislop`, `antislop-code`, `antislop-ui`, `antislop-human`, `antislop-layoutmobile`, `antislop-copywriting`)  
+  Rule sets enforcing code comment hygiene (no obvious comment filler), accessible human UI, responsive mobile layouts, and natural copy.  
+  *Author:* [Miqdad Badjuber](https://github.com/miqdadbadjuber/anti-slop)
+
+- **impeccable**  
+  Design language and UX review standard. Polishes visual hierarchy, typography, design tokens, color contrast, and eliminates generic AI aesthetics.  
+  *Author:* [Paul Bakaus](https://github.com/pbakaus/impeccable)
+
+- **scroll-craft**  
+  Builds premium scroll-driven landing pages with layered heroes, dimensional visual planes, restrained motion, and bespoke mobile composition.  
+  *Author:* [Nate Herk](https://github.com/nateherkai/scroll-craft)
+
 - **humanizer-indonesia**  
   Indonesian prose and technical writing editor. Removes translation artifacts (*kalke*), robotic AI syntax, and preserves natural author voice.  
   *Author:* [Adhi Pribadi](https://github.com/adhiprib/humanizer-indonesia)
-
-- **anti-slop suite** (`antislop`, `antislop-code`, `antislop-ui`, `antislop-human`, `antislop-layoutmobile`, `antislop-copywriting`)  
-  Rule sets enforcing code comment hygiene (no obvious comment filler), accessible human UI, responsive layouts, and natural copy.  
-  *Author:* [Miqdad Badjuber](https://github.com/miqdadbadjuber/anti-slop)
 
 ---
 
@@ -92,11 +104,12 @@ curl -fsSL https://raw.githubusercontent.com/FuzailFr/antigravity-essentials/mai
 antigravity-essentials/
 ├── README.md
 ├── LICENSE
+├── plugin.json                # Native Antigravity plugin manifest
 ├── templates/
-│   ├── .cursorrules               # For Cursor IDE
-│   ├── CLAUDE.md                  # For Claude Code CLI
-│   ├── .windsurfrules             # For Windsurf IDE
-│   ├── copilot-instructions.md    # For GitHub Copilot
+│   ├── .cursorrules           # For Cursor IDE
+│   ├── CLAUDE.md              # For Claude Code CLI
+│   ├── .windsurfrules         # For Windsurf IDE
+│   ├── copilot-instructions.md# For GitHub Copilot
 │   └── universal-system-prompt.md # For ChatGPT, Claude.ai, Gemini Web
 └── skills/
     ├── antislop/
@@ -106,7 +119,15 @@ antigravity-essentials/
     ├── antislop-layoutmobile/
     ├── antislop-ui/
     ├── humanizer-indonesia/
-    └── jagoan/
+    ├── impeccable/
+    ├── jagoan/
+    ├── ponytail/
+    ├── ponytail-audit/
+    ├── ponytail-debt/
+    ├── ponytail-gain/
+    ├── ponytail-help/
+    ├── ponytail-review/
+    └── scroll-craft/
 ```
 
 ---

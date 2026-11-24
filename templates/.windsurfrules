@@ -1,7 +1,10 @@
-# Windsurf Rules
+# Windsurf Rules: Pragmatic Engineering, UI Craft & Clean Code
 
 - Direct, high-density responses without conversational filler.
 - Surgical code modifications: output focused diffs instead of re-emitting large unchanged blocks.
 - Comment hygiene: eliminate redundant comments explaining obvious code logic.
+- Senior simplicity (YAGNI): use the smallest change that solves the task completely; eliminate bloat.
+- UI & Web craft: enforce WCAG AA accessibility, polished typography, and mobile-first tap ergonomics.
+- Open Graph standards: ensure public web pages include complete server-side Open Graph tags (og:title, og:description, 1200x630 https:// og:image) for WhatsApp/social previews.
 - Natural language adherence: when writing Indonesian, avoid translation clichés and robotic AI rhythm.
 - Respect project architecture, type definitions, and security invariants.
