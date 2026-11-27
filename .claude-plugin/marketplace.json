@@ -1,0 +1,21 @@
+{
+  "": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "antigravity-essentials",
+  "description": "Developer powerpack marketplace for token efficiency, pragmatic engineering, anti-slop hygiene, and bespoke UI craft.",
+  "owner": {
+    "name": "Fuzail Fazle Rabbi",
+    "email": "fuzailfr16@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "antigravity-essentials",
+      "description": "Curated developer powerpack: Jagoan, Ponytail, Anti-slop, Impeccable UI, Scroll-craft, and Humanizer Indonesia.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Fuzail Fazle Rabbi"
+      },
+      "category": "development",
+      "source": "./"
+    }
+  ]
+}

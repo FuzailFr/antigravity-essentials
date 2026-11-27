@@ -1,0 +1,23 @@
+{
+  "name": "antigravity-essentials",
+  "version": "1.0.0",
+  "description": "Curated developer powerpack: token efficiency, anti-slop hygiene, senior pragmatic engineering (ponytail), craft UI (impeccable), interactive scrollytelling (scroll-craft), and humanized Indonesian writing.",
+  "author": {
+    "name": "Fuzail Fazle Rabbi",
+    "email": "fuzailfr16@gmail.com"
+  },
+  "homepage": "https://github.com/FuzailFr/antigravity-essentials",
+  "repository": "https://github.com/FuzailFr/antigravity-essentials.git",
+  "license": "MIT",
+  "keywords": [
+    "antigravity",
+    "skills",
+    "developer-powerpack",
+    "anti-slop",
+    "ponytail",
+    "jagoan",
+    "impeccable",
+    "scroll-craft",
+    "humanizer"
+  ]
+}
